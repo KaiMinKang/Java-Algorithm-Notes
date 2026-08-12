@@ -1,0 +1,11 @@
+# IDEA配置目录
+.idea/
+# 编译class文件
+target/
+out/
+*.class
+# 日志
+*.log
+# 操作系统文件
+.DS_Store
+Thumbs.db
