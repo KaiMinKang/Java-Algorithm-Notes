@@ -1,6 +1,10 @@
-package Hot100;
+package LeetCode;
 
 public class CatchingRainwater {
+    public int hashCode() {
+        return super.hashCode();
+    }
+
     public int trap(int[] height) {
         //总体思路
         //1 首先从左侧遍历记录砖块和雨水的最大和
