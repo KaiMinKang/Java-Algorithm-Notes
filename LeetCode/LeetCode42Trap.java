@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class CatchingRainwater {
+public class LeetCode42Trap {
     public int hashCode() {
         return super.hashCode();
     }
