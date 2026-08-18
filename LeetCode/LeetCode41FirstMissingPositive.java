@@ -4,7 +4,8 @@ public class LeetCode41FirstMissingPositive {
     public int firstMissingPositive(int[] nums) {
         int temp;
         for (int i = 0; i < nums.length; i++) {
-            //当前下标i内的元素不等于i+1的话，则把nums[i]交换到他的位置nums[nums[i]-1]
+            //如果x不在x-1下标的位置（在i的位置）
+            //则交换i下标位置的值和x-1下标位置的值
             while (nums[i] != i + 1 && nums[i] > 0 && nums[i] <= nums.length && nums[nums[i] - 1] != nums[i]) {
                 temp = nums[i];
                 nums[i] = nums[temp - 1];
